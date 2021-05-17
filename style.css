@@ -1,0 +1,77 @@
+body {
+    background-color: #fff9e6;
+    text-align: center;
+}
+div.glava {
+    background-color: #5F9EA0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+	border-bottom: dotted 10px white;
+
+}
+h1 {
+    font-size: 60px;
+	font-family:Brush Script MT;
+    color: white;
+  }
+p {
+	  font-family: Courier New;
+	  font-size: 17px;
+  }
+input[type=text] {
+		padding: 15px 10px;
+		border: 2px solid #5F9EA0;
+		border-radius: 13px;
+}	
+input[type=text]:focus {
+		border: 3px dotted #DAA520;
+		outline: none;
+}		
+h2 {
+		font-family: Brush Script MT;
+		font-size: 40px;
+		color: #DAA520
+}
+
+img{
+	width: 20%;
+	border: 10px solid white;
+	border-radius: 15px; 
+}
+
+img:hover{
+	border: 10px dotted #CD5C5C;
+}
+	
+button{
+	background-color: #5F9EA0;
+	color: white;
+	padding: 5px 25px;
+	border: 1px white;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+button:hover{
+	background-color: #73b8ba; /*za te ki ne podpirajo gradienta*/
+	background-image: linear-gradient(160deg, #8fbbbc, #5F9EA0);
+}
+div.podatki{
+	background-color: #CD5C5C;
+	color: white;
+	width: 100%;
+	border-top: 3px dotted #fff9e6;
+	border-bottom: 3px dotted #fff9e6;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+hr{
+	border-top: 10px dotted #5F9EA0;
+	margin-top:30px;
+}
